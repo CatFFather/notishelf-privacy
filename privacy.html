@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="알림서랍 / NotiShelf privacy policy by CatFFather. Notifications are stored on your device.">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>알림서랍 / NotiShelf 개인정보처리방침 · Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { background: #f7f8fc; color: #202637; font-family: system-ui, -apple-system, sans-serif; }
+    body { margin: 0; line-height: 1.75; overflow-wrap: anywhere; }
+    main { max-width: 860px; margin: 0 auto; padding: 40px 24px 64px; }
+    header { border-bottom: 1px solid #dde2ed; padding-bottom: 24px; }
+    h1 { margin: 0 0 8px; font-size: clamp(25px, 4vw, 34px); line-height: 1.4; }
+    h2 { font-size: 24px; margin: 0 0 24px; }
+    h3 { font-size: 20px; margin: 28px 0 10px; line-height: 1.5; }
+    nav { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 16px; }
+    a { color: #3049b5; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #3b5bdb; outline-offset: 4px; }
+    article { background: #fff; border: 1px solid #dde2ed; border-radius: 18px; padding: 28px; margin-top: 28px; }
+    p { margin: 12px 0; }
+    ul { padding-left: 24px; }
+    li { margin: 6px 0; }
+    code { font-family: ui-monospace, monospace; font-size: .9em; }
+    footer { margin-top: 32px; font-size: 14px; color: #566174; }
+    @media (max-width: 480px) { main { padding: 24px 16px 40px; } article { padding: 20px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>알림서랍 / NotiShelf</h1>
+    <p>개인정보처리방침 · Privacy Policy</p>
+    <nav aria-label="언어 · Language"><a href="#ko" lang="ko">한국어</a><a href="#en" lang="en">English</a></nav>
+  </header>
+  <article id="ko" lang="ko" aria-labelledby="ko-title">
+    <h2 id="ko-title">개인정보처리방침</h2>
+<p>개발자: <strong>CatFFather</strong></p>
+<p>시행일: <strong>2026-10-04</strong></p>
+<h3>1. 적용 범위</h3>
+<p>알림서랍(NotiShelf)은 사용자가 Android에서 직접 알림 접근을 허용한 뒤 새 알림을 기기 내부에 보관하고 검색할 수 있게 하는 Android 앱이다. 계정, 로그인, 자체 서버 또는 클라우드 동기화를 제공하지 않는다.</p>
+<h3>2. 기기에서 처리하는 정보</h3>
+<p>사용자가 앱 안의 고지에 동의하고 Android 알림 접근을 허용한 경우 다음 정보를 기기에서 처리한다.</p>
+<ul><li>알림을 보낸 앱의 package name과 표시 이름</li><li>알림에서 관찰된 앱의 표시용 launcher icon을 최대 144px·128KB PNG로 줄인 로컬 사본</li><li>Android가 제공한 알림 식별자</li><li>Android가 제공한 알림 제목과 본문. 표준 메신저 알림은 대화 제목과 최신 발신자 표시 이름을 대표 제목에 포함할 수 있음</li><li>Android가 원본 알림 탭에 제공한 실행 동작. 실제 저장된 최근 알림 최대 256건에 대해 process memory에서만 임시 처리하며 Room, preferences 또는 파일에 직렬화하지 않음</li><li>BigPictureStyle 알림에서 Android가 제공한 본문 사진 한 장의 최대 1024px·512KB 이하 JPEG 압축본</li><li>알림 게시 시각과 로컬 저장 시각</li><li>앱별 새 알림 및 지속 알림 저장 여부</li><li>앱 내 동의 여부, 리스너 연결 상태와 마지막 수신·저장 시각</li></ul>
+<p>전체 notification extras, 그 밖의 이미지·첨부 파일, 발신자 avatar, <code>RemoteViews</code>, 연락처 또는 다른 앱의 메시지 데이터베이스는 수집하지 않는다. Android가 제목·본문·사진을 제공하지 않거나 마스킹하면 해당 값은 비어 있을 수 있다.</p>
+<h3>3. 이용 목적</h3>
+<p>위 정보는 지나간 알림을 목록, 검색과 앱 필터로 다시 찾고, 사용자가 선택한 앱의 새 알림만 저장하며, 수집 상태를 표시하고 사용자가 명시적으로 누른 기록의 원래 알림 화면을 가능한 경우 여는 기능에만 사용한다.</p>
+<h3>4. 외부 전송과 제3자 제공</h3>
+<p>앱은 알림 기록을 기기 밖으로 전송하거나 제3자와 공유하지 않는다. 광고, 행동 분석, attribution, 원격 crash reporting SDK를 포함하지 않으며 알림 내용을 원격 로그로 보내지 않는다.</p>
+<p>Google Play의 현재 Data safety 정의에서는 기기 안에서만 접근하고 외부로 전송하지 않는 처리는 <code>collected</code>에 포함되지 않는다. 다만 알림 접근은 민감할 수 있으므로 앱은 시스템 설정을 열기 직전에 처리 정보와 목적을 고지하고 별도의 명시적 동의를 받는다.</p>
+<h3>5. 저장 위치, 보안과 백업</h3>
+<p>알림 기록은 Android 앱 전용 저장소의 Room(SQLite) 데이터베이스에 저장한다. Android 앱 sandbox가 다른 일반 앱의 직접 접근을 제한하지만 기본 Room 데이터베이스 자체를 별도로 암호화하지는 않는다.</p>
+<p>알림 실행 동작은 Android 시스템이 관리하는 <code>PendingIntent</code> token으로, 최대 256건의 제한된 process-memory cache에서만 임시 처리한다. DB·preferences·파일·backup에 저장하지 않으며 앱 process 종료·force-stop 또는 기기 재부팅 뒤에는 cache가 사라진다. 발행 앱의 취소·갱신이나 일회용 token 사용으로 더 일찍 만료될 수 있다.</p>
+<p>출시 빌드는 <code>android.permission.INTERNET</code> 없이 동작하도록 구성하고, Android cloud backup과 기기 간 이전에서 데이터베이스, preferences, 내부 파일 등 앱 데이터 영역을 제외한다. 제조사별 Android 구현이 기기 간 이전을 완전히 동일하게 처리한다고 보장하지는 않는다.</p>
+<h3>6. 보관 기간과 삭제</h3>
+<p>알림 기록은 사용자가 삭제하거나 앱을 제거할 때까지 기기에 보관한다. 앱에서 다음 범위로 삭제할 수 있다.</p>
+<ul><li>알림 한 건</li><li>선택한 앱의 모든 기록</li><li>현재 검색 및 앱 필터와 일치하는 모든 기록</li><li>모든 알림 기록</li></ul>
+<p>Android 설정에서 알림 접근을 철회하면 이후 새 알림 처리는 중지되지만 기존 기록은 자동 삭제되지 않는다. 사용자는 기존 기록을 앱에서 별도로 삭제할 수 있다. 앱별 저장 설정, 마지막으로 알려진 표시 이름과 launcher icon 캐시는 알림 기록 삭제 뒤에도 설정과 과거 source 표시를 유지하기 위해 남고, 앱을 제거하면 다른 앱 데이터와 함께 삭제된다. 단건 기록 삭제는 연결된 임시 실행 동작을 제거하며, 앱 저장 OFF는 해당 앱의 실행 동작을 제거한다. 범위·전체 기록 삭제와 앱 내 동의 철회는 임시 실행 동작 cache를 비운다.</p>
+<h3>7. 플랫폼 제한</h3>
+<p>Android 15 이상은 OTP 등 민감한 알림 내용을 일반 알림 리스너에서 숨길 수 있다. 앱은 Android가 제공한 값만 처리하고 숨겨진 값을 우회, 추론 또는 복구하지 않는다. 제조사별 백그라운드 정책으로 수집이 지연되거나 누락될 수 있으며 모든 알림의 저장을 보장하지 않는다. 원본 알림 실행 동작이 없거나 만료되면 해당 앱의 기본 화면을 열며 모든 과거 기록의 특정 화면 이동을 보장하지 않는다.</p>
+<h3>8. 문의와 변경</h3>
+<p>개발자 및 개인정보 문의 담당: <strong>CatFFather</strong></p>
+<p>문의 이메일: <a href="mailto:jh2000le@gmail.com">jh2000le@gmail.com</a></p>
+<p>사용자가 이메일로 직접 문의하면 이메일 주소와 문의 내용이 회신을 위해 개발자에게 전달됩니다. 앱은 문의 메일에 알림 기록을 자동으로 첨부하지 않습니다. 민감한 알림 원문이나 인증 코드는 보내지 마세요.</p>
+<p>이 정책 웹페이지는 GitHub Pages에서 제공합니다. GitHub는 보안을 위해 방문자의 IP 주소를 기록할 수 있습니다. 자세한 내용은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 참고하세요. 이는 앱의 알림 기록을 GitHub로 전송한다는 뜻이 아닙니다.</p>
+<p>처리 방식이 변경되면 이 방침과 앱 안의 고지, Google Play Data safety 응답을 함께 갱신한다. 서버, 분석 SDK, 광고 SDK, 원격 오류 수집 또는 새로운 민감 권한을 추가하려면 출시 전에 별도의 제품·개인정보 검토가 필요하다.</p>
+  </article>
+  <article id="en" lang="en" aria-labelledby="en-title">
+    <h2 id="en-title">Privacy Policy</h2>
+<p>Developer: <strong>CatFFather</strong></p>
+<p>Effective date: <strong>October 4, 2026</strong></p>
+<h3>1. Scope</h3>
+<p>NotiShelf is an Android app that stores new notifications locally after the user accepts the in-app disclosure and grants Android notification access. It does not provide an account, login, developer-operated server, or cloud sync.</p>
+<h3>2. Information processed on the device</h3>
+<p>NotiShelf processes the source app package and display name, a local presentation copy of the observed app&#x27;s launcher icon limited to a 144 px and 128 KB PNG, Android notification identifier, title, body, posted and locally stored timestamps, per-app new and ongoing notification storage choices, consent state, listener connection state, and last event/storage timestamps. For a BigPictureStyle notification, it may also store one Android-provided content image compressed as a JPEG no larger than 1024 px and 512 KB. It does not read an app&#x27;s message database or contacts, and it does not store complete notification extras, other images or attachments, sender avatars, or RemoteViews. For standard messaging notifications, the representative title may include the conversation title and the latest sender display name supplied by Android.</p>
+<p>For up to 256 recently stored notifications, NotiShelf may temporarily hold the Android-provided notification tap action in process memory so that an explicit user tap can request the original destination. The action is never serialized to Room, preferences, files, or backup.</p>
+<h3>3. Purpose</h3>
+<p>This information is used only to store selected new notifications, show and search notification history, filter it by source app, display listener health, and request the original notification destination when the user explicitly asks.</p>
+<h3>4. Off-device transfer and sharing</h3>
+<p>NotiShelf does not transmit notification records off the device or share them with third parties. It contains no ads, behavior analytics, attribution, or remote crash-reporting SDK. The release build is designed to operate without the Android INTERNET permission.</p>
+<h3>5. Storage, security, and backup</h3>
+<p>Records are stored in a Room (SQLite) database inside the Android app sandbox. The sandbox restricts access by ordinary apps, but the standard Room database is not a separately encrypted database. Release configuration excludes app data domains from Android cloud backup and device-to-device transfer. Identical behavior across every manufacturer cannot be guaranteed.</p>
+<p>The temporary notification action cache disappears when the app process ends, the app is force-stopped, or the device reboots. A source app may cancel or replace an action earlier.</p>
+<h3>6. Retention and deletion</h3>
+<p>Records remain on the device until the user deletes them or uninstalls the app. Users can delete one record, all records from an app, all records matching the current search and app filter, or all notification records. Revoking notification access stops future capture but does not automatically delete existing records. Per-app storage settings, the last known display name, and the launcher icon cache remain after notification-record deletion so source settings and past-source presentation remain available. Uninstalling NotiShelf removes them with the rest of the app data. Deleting one record removes its cached action; disabling a source removes that source&#x27;s actions; bulk deletion or withdrawing in-app consent clears the temporary action cache.</p>
+<h3>7. Platform limitations</h3>
+<p>Android 15 and later may hide sensitive notification content such as one-time passwords. NotiShelf uses only values provided by Android and does not bypass, infer, or recover hidden content. Manufacturer background policies can delay or prevent capture, so the app does not guarantee that every notification will be stored. If an original notification action is absent or expired, NotiShelf opens the source app&#x27;s front door and cannot guarantee a specific screen for every historical record.</p>
+<h3>8. Contact and changes</h3>
+<p>Developer and privacy contact: <strong>CatFFather</strong></p>
+<p>Email: <a href="mailto:jh2000le@gmail.com">jh2000le@gmail.com</a></p>
+<p>If you email the developer, your email address and message are sent for the purpose of responding to your inquiry. The app does not automatically attach notification records. Please do not send sensitive notification content or authentication codes.</p>
+<p>This policy website is hosted on GitHub Pages. GitHub may log visitors&#x27; IP addresses for security purposes. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> for details. This does not send the app&#x27;s notification records to GitHub.</p>
+<p>If data handling changes, this policy, the in-app disclosure, and the Google Play Data safety answers must be updated together.</p>
+  </article>
+  <footer>CatFFather · <a href="mailto:jh2000le@gmail.com">jh2000le@gmail.com</a></footer>
+</main>
+</body>
+</html>
